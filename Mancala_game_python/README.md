@@ -2,6 +2,9 @@
 
 [Mancala] (also known as 'Kalaha') is a 2- player board game with ancient heritage from Eritrea and Ethiopia, dating back as far as the 6th and 7th century, and is still enjoyed through to this day.
 
+
+<img src="https://www.ultraboardgames.com/mancala/gfx/board18.jpg" height="250" width="500">
+
 Initially, the board is set up with 4 stones in each of the 6 pits belonging to a player. 
 Pits numbered from 0 to 5 and store on the left side belong to player 1. Pits from 7 to 12 and the store on the right side belong to player 2. 
 
