@@ -1,4 +1,11 @@
+from os import system, name 
+from art import logo
 board=['4','4','4','4','4','4','0','4','4','4','4','4','4','0']
+
+def clear(): 
+    # for windows 
+    if name == 'nt': 
+        _ = system('cls')
 
 def printbrd(board):
     print('       '+'12' +'  '+'11'+'   '+'10' +'    '+'9'+'    '+'8'+'    '+'7')
@@ -15,6 +22,7 @@ def isGameOver(l):
 
 
 def p1move(l):
+    clear()
     printbrd(l)
     print()
     selected=int(input("player 1: move: (select a non empty pit from 0 to 5)"))
@@ -43,6 +51,7 @@ def p1move(l):
 
 
 def p2move(l):
+    clear()
     printbrd(l)
     print()
     selected=int(input("player 2: move: (select a non empty pit from 7 to 12)"))
@@ -73,25 +82,28 @@ def p2move(l):
         
 
 def main():
+    print(logo)
     print("welcome to Mancala!\nA simple board game in which players move stones from one pit to another, in consecutive order, attempting to accumulate the maximum pieces in their respective stores.\nPlayer 1 store is on the right and player 2 store on the left of the board. When all the pits of any player are empty, the game is over.\nThe player having maximum stones in their store wins.\nIf the last stone enters in your own store, you get one additional move. \n\nHere's the twist: If the last stone enters one of your own empty pits, all the stones in the opponent's pit exactly above it are added to your store!\n\n")
-    while(True):
-        if not isGameOver(board):
-            
-            p1move(board)
-            
-            p2move(board)
-            
-        else:
-            print("Scores:\nplayer 1: "+board[6]+"  player 2: "+board[13])
-            if int(board[6])>int(board[13]):
-                print("Player 1 wins!")
-                break
-            elif int(board[6])<int(board[13]):
-                print("Player 2 wins!")
-                break
-            elif int(board[6])==int(board[13]):
-                print("Its a tie game!")
-                break
+    play= input("Enter 'Y' to start the game ").upper()
+    if play=="Y":
+        while(True):
+            if not isGameOver(board):
+                
+                p1move(board)
+                
+                p2move(board)
+                
+            else:
+                print("Scores:\nplayer 1: "+board[6]+"  player 2: "+board[13])
+                if int(board[6])>int(board[13]):
+                    print("Player 1 wins!")
+                    break
+                elif int(board[6])<int(board[13]):
+                    print("Player 2 wins!")
+                    break
+                elif int(board[6])==int(board[13]):
+                    print("Its a tie game!")
+                    break
 
 
 main()
