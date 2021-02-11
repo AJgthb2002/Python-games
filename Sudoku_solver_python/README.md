@@ -4,7 +4,7 @@
 
 The puzzle consists of some of the cells (usually less than half of them) already filled in, like this:
 
-<img src="https://www.learn-sudoku.com/images/start2finish.gif" height="250" width="500">
+<img src="https://www.learn-sudoku.com/images/start2finish.gif" height="250" width="650">
 
 A sample puzzle is present in the **sudoku_data.txt** file. The blank squares are indicated by **0**s.
 
