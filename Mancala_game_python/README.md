@@ -10,7 +10,7 @@ Pits numbered from 0 to 5 and store on the left side belong to player 1. Pits fr
 
 The stores belonging to both players are initially empty.
 
-During a turn, a player grabs all of the stones in a hole on their side and drops them, one by one, in succeeding holes in a counter-clockwise direction. Players place stones in their own store but they MUST skip over their opponent's store.This continues until the player has no more stones in his hand. It is then their opponents turn.
+During a turn, a player grabs all of the stones in a pit on their side and drops them, one by one, in succeeding pits in a counter-clockwise direction. Players place stones in their own store but they MUST skip over their opponent's store. This continues until the player has no more stones in his hand. Then, it is their opponents turn.
 
 When all the pits of any player are empty, the game is over.
 The player having maximum stones in their store wins.
