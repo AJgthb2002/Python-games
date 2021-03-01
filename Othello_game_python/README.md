@@ -1,4 +1,4 @@
-# Console based Othello game clone using python
+# Console based Othello game clone
 [Othello] (also known as 'Reversi') is a board game invented during the Victorian era.
 It is a very dynamic board game; the board position can change dramatically with each move.
 
