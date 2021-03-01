@@ -1,4 +1,4 @@
-# Console based implementation of Mancala game using python.
+# Console based implementation of Mancala game 
 
 [Mancala] (also known as 'Kalaha') is a 2- player board game with ancient heritage from Eritrea and Ethiopia, dating back as far as the 6th and 7th century, and is still enjoyed through to this day.
 
