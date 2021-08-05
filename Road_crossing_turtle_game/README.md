@@ -19,3 +19,8 @@
   </tr>
   </table>
   
+***
+## Future enhancements:
+- Allowing the turtle to move left or right
+- Direction of cars will be selected randomly (right-to-left or left-to-right)
+- Variation in the sizes and shapes of cars
