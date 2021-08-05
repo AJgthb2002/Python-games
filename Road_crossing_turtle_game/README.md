@@ -1,4 +1,4 @@
-## Cross The Road!
+## The Cross Boss!
 #### An interactive single-player game where the player must help the turtle reach the other side of the road, by successfully dodging the cars.
 
 - The turtle can only move forward.
